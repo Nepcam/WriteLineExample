@@ -23,9 +23,9 @@ namespace WriteLineExample
             string filename = "WriteLineExample output.txt";
             outputFile = File.CreateText(filename); // create empty file 
             // add three lines of text
-            outputFile.WriteLine("first line of text");
-            outputFile.WriteLine("second line of text");
-            outputFile.WriteLine("third line of text");
+            outputFile.WriteLine("Mason");
+            outputFile.WriteLine("Darius");
+            outputFile.WriteLine("Liam");
             // close the stream/file, ensuring all data will be saved in the file
             outputFile.Close();
             MessageBox.Show("File \""  + filename + "\" created containing three lines.");
